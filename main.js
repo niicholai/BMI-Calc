@@ -6,7 +6,7 @@ function bmiPromptImperial() {
 }
 
 function bmiPromptMetric() {
-  var heightMet = prompt("What is your height in meters?");
+  var heightMet = prompt("What is your height in centimeters?");
   var weightMet = prompt("What is your weight in kilograms?");
   var finalBmiMet = ((weightMet / (heightMet * heightMet)) * 10000);
   alert("Your BMI is " + Math.floor(finalBmiMet) + ", hope this has been informative!")
