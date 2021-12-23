@@ -14,7 +14,7 @@ function bmiPromptImperial() {
   if (finalBmiImp >= 30) {
     alert("Your BMI is " + round(finalBmiImp, 1) + ", this indicates you are obese.");
   }
-}
+};
 
 function bmiPromptMetric() {
   var heightMet = prompt("What is your height in centimeters?");
@@ -32,4 +32,4 @@ function bmiPromptMetric() {
   if (finalBmiMet >= 30) {
     alert("Your BMI is " + round(finalBmiMet, 1) + ", this indicates you are obese.");
   }
-}
+};
